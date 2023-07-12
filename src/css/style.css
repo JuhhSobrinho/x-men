@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    height: 80px;
+    height: 90px;
     text-align: center;
 }
 
@@ -102,6 +102,12 @@ p, h2, h1{
 /* ///////////////////////////////////////////// MOBILE */
 
 @media screen and (max-device-width: 799px){
+ 
+    body{
+         background-repeat: repeat;
+
+    }
+
 
     main{
         display:flex;
@@ -110,4 +116,21 @@ p, h2, h1{
         flex-direction: column;
     }
     
+    .selecao-de-personagens{
+        width: 600px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    p, h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+    header{
+        height: 110px;
+    }
+
 }
