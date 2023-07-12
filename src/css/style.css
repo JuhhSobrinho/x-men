@@ -120,6 +120,8 @@ p, h2, h1{
         width: 600px;
         align-items: center;
         margin-left: 0;
+        justify-content: center;
+
     }
 
     p, h1{
@@ -131,6 +133,8 @@ p, h2, h1{
     }
     header{
         height: 110px;
+        justify-content: center;
+        align-items: center;
     }
 
 }

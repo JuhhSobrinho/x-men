@@ -6,7 +6,7 @@ const personagens = [
         descricao: "Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los"
     },
     {
-        nome: "jean-Grey",
+        nome: "jean-grey",
         foto: "./src/imagens/card-jean-grey.jpg",
         dataName: "Jean Grey",
         descricao: "A telepatia, telecinese e empatia de Jean são drasticamente aumentadas quando em contato com a Fênix, além de poder viajar no vácuo do espaço que vai além da velocidade da luz."
