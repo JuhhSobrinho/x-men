@@ -1,0 +1,113 @@
+body{
+    padding: 0 auto;
+    margin: 0;
+    background-image:url(../imagens/bg-desktop.jpg);
+    background-position: 50%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    height: 80px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 550px;
+    margin: 10px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+li,ul,a{
+    transform: none;
+    list-style: none;
+    justify-content:start;
+    text-decoration: none; 
+    display: inline;
+}
+
+ul{
+    width: 520px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes-personagem{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    height: 150px;
+}
+
+.nome-personagem{
+    text-align: center;
+    white-space: nowrap;
+    border-bottom: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    width: 560px;
+    color: aliceblue;
+}
+
+.titulo{
+    padding-left: 160px !important;
+    padding-right: 160px !important;
+    white-space: nowrap;
+    border-bottom: solid;
+    border-color: blueviolet;
+    color: aliceblue;
+}
+
+p{
+    margin:0%;
+    padding: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.personagem img{
+    box-shadow: transparent;
+    transition: box-shadow 0.2s; 
+    cursor: pointer;
+}
+
+.personagem img:hover{
+    transition-delay: 0.2s;
+    box-shadow: 0 0 6px 10px rgba(204, 0, 255, 0.3);
+}
+
+p, h2, h1{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.personagem-grande{
+    height: 350px;
+}
+
+
+
+/* ///////////////////////////////////////////// MOBILE */
+
+@media screen and (max-device-width: 799px){
+
+    main{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
