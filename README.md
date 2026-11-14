@@ -1,6 +1,6 @@
 # x-men
 
-Feito com o mini curso DevEmDobro. Contribute to JuhhSobrinho/x-men development by creating an account on GitHub.
+Descrição do projeto em breve.
 
 ## Sobre
 
@@ -8,7 +8,7 @@ Projeto desenvolvido por [Juliano Sobrinho](https://github.com/JuhhSobrinho).
 
 ## Tecnologias
 
-Arquivos principais do projeto: `.jpg`, `.png`, `.js`, `.svg`, `.json.
+Arquivos principais do projeto: `.jpg`, `.png`, `.js`, `.svg`, `.md`.
 
 ## Como executar
 
